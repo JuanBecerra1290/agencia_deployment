@@ -1,0 +1,7 @@
+.row.testimoniales
+    each testimonio in datosTestimonio
+        .col-md-6.col-lg-4.mb-4
+            .card 
+                .card-body
+                    p #{testimonio.mensaje}
+                        spam.text-danger.d-block.text-right.font-weight-bold - #{testimonio.nombre}
